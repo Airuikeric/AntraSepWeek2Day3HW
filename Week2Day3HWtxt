@@ -1,0 +1,31 @@
+1. Describe the problem generics address.
+    Generics address type safety and flexibility by allowing classes and methods to operate on various data types 
+    without requiring multiple implementations. They avoid the need for “boxing” (conversion from value type to 
+    object type) and “unboxing,” improving performance and reducing errors due to type mismatches.
+
+2. How would you create a list of strings, using the generic List class?
+    List<string> myList = new List<string>();
+    
+3. How many generic type parameters does the Dictionary class have?
+    The Dictionary class has two generic type parameters: one for the key type and one for the value type.
+    Dictionary<TKey, TValue>
+    
+4. False. When a generic class has multiple type parameters, they must all match.
+
+5. What method is used to add items to a List object?
+    The Add method is used to add items to a List object.
+    myList.Add("example");
+    
+6. Name two methods that cause items to be removed from a List.
+    Remove(item): Removes the first occurrence of the specified item.
+    RemoveAt(index): Removes the item at the specified index.
+
+7. How do you indicate that a class has a generic type parameter?
+    You indicate a generic type parameter using angle brackets <T> after the class name:
+    public class MyClass<T> { }
+    
+8. False. Generic classes can only have one generic type parameter.
+
+9. True Generic type constraints limit what can be used for the generic type.
+
+10. True Constraints let you use the methods of the thing you are constraining to.
